@@ -1,0 +1,46 @@
+[
+    {
+        "type": "folder",
+        "name": "Api",
+        "path": "api",
+        "children": [
+            {
+                "type": "file",
+                "name": "API 文档",
+                "path": "api\/index",
+                "file": "api\/index.md"
+            },
+            {
+                "type": "file",
+                "name": "API 概览",
+                "path": "api\/overview",
+                "file": "api\/overview.md"
+            }
+        ]
+    },
+    {
+        "type": "folder",
+        "name": "Guide",
+        "path": "guide",
+        "children": [
+            {
+                "type": "file",
+                "name": "入门指南",
+                "path": "guide\/getting-started",
+                "file": "guide\/getting-started.md"
+            },
+            {
+                "type": "file",
+                "name": "指南",
+                "path": "guide\/index",
+                "file": "guide\/index.md"
+            }
+        ]
+    },
+    {
+        "type": "file",
+        "name": "欢迎使用 Markdown 文档网站",
+        "path": "index",
+        "file": "index.md"
+    }
+]
