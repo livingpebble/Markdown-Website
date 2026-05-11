@@ -1,0 +1,16 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+    
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^(.*)$ index.php/$1 [L,QSA]
+</IfModule>
+
+<IfModule mod_headers.c>
+    <FilesMatch "\.(js|css)$">
+        Header set Cache-Control "max-age=604800, public"
+    </FilesMatch>
+</IfModule>
+
+Options -Indexes
